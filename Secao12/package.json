@@ -1,0 +1,22 @@
+{
+  "name": "Secao12",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.12.16",
+    "@babel/core": "^7.12.16",
+    "@babel/preset-env": "^7.12.16",
+    "babel-loader": "^8.2.2",
+    "webpack": "^5.23.0",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1"
+  },
+  "scripts": {
+    "dev":  "webpack-dev-server --mode=development",
+    "prod": "webpack --mode=production"
+  }
+}
